@@ -19,11 +19,8 @@
 				return currentMonth;
 			},
 			setMonth: function(month) {
-				// Only set the month if it is different
-				if (currentMonth !== month) {
-					currentMonth = month;
-					console.log("BirthdayMonth API: User set \"" + currentMonth + "\" as the new birthday month");
-				}
+				currentMonth = month;
+				console.log("BirthdayMonth API: User set \"" + currentMonth + "\" as the new birthday month");
 			}
 		};
 	}());
